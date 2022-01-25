@@ -1,0 +1,14 @@
+spring:
+  flyway:
+    schemas: willagroapp
+    create-schemas: true
+    url: jdbc:mysql://localhost:3322/willagroapp
+    user: root
+    password: iamgroot
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3322/willagroapp
+    #url: jdbc:mysql://localhost:3322/willagroapp
+    username: root
+    password: iamgroot
+
