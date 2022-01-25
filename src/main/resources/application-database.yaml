@@ -6,9 +6,8 @@ spring:
     user: root
     password: iamgroot
   datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3322/willagroapp
-    #url: jdbc:mysql://localhost:3322/willagroapp
+    #driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3322/willagroapp
     username: root
     password: iamgroot
 
